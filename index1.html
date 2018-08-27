@@ -1,0 +1,491 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+		<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+		<!--<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, target-densitydpi=medium-dpi" />-->
+		<meta name="format-detection" content="telephone=no" />
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<meta http-equiv="Cache-Control" content="no-transform" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index20180621_1.css">
+		<link rel="stylesheet" type="text/css" href="css/index_style.css">
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<title>雷神官网首页</title>
+		<style>
+			.swiper-container {
+				width: 1208px;
+				height: 219px;
+				overflow: initial;
+			}
+			
+			
+			.swiper-button-next,
+			.swiper-button-prev {
+				-webkit-transition: opacity .5s;
+				-o-transition: opacity .5s;
+				transition: opacity .5s;
+			}
+			
+			.swiper-container-horizontal>.swiper-pagination-bullets,
+			.swiper-pagination-custom,
+			.swiper-pagination-fraction {
+				bottom: -30px;
+			}
+			
+			.swiper-button-prev,
+			.swiper-container-rtl .swiper-button-next {
+				background: url(images/left01.png);
+				left: 0;
+				opacity: 0;
+			}
+			
+			.swiper-button-next,
+			.swiper-container-rtl .swiper-button-prev {
+				background: url(images/right01.png);
+				right: 8px;
+				opacity: 0;
+			}
+			
+			.swiper-pagination-bullet-active {
+				background: #b7b7b7;
+				width: 30px;
+				height: 8px;
+				border-radius: 6px;
+			}
+			
+			.swiper-pagination-bullet {
+				background: #b7b7b7;
+			}
+			.swiper-container:hover .swiper-button-prev,.swiper-container:hover .swiper-button-next{
+				opacity: 1;
+			}
+			
+		</style>
+		<!--[if lte IE 10]> 
+<p class="chromeframe">您使用的IE浏览器版本过低，本站不再支持，<a href="//windows.microsoft.com/">升级您的IE浏览器</a>，或使用<a href="//www.google.cn/chrome/">Google Chrome</a>、<a href="//www.firefox.com.cn/download/">Firefox</a>等高级浏览器，将会得到更好的体验！</p>
+<![endif]-->
+
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- 全屏banner start-->
+			<div class="slide_banner">
+				<div class="shadow">
+					<!-- 头部start-->
+					<div class="top_nav noback">
+						<div class="wrap ui_clear">
+							<div class="nav_l">
+								<ul class="ui_clear">
+									<li class="active">
+										<a href="/">首页</a>
+									</li>
+									<li>
+										<a href="javascript:;">充值</a>
+									</li>
+									<li>
+										<a href="javascript:;">下载</a>
+									</li>
+									<li>
+										<a href="javascript:;">公告</a>
+									</li>
+									<li>
+										<a href="javascript:;">活动</a>
+									</li>
+
+									<li class="nav_c">
+										<a href="index.html" class="noback">
+											<img src="images/logo.png" />
+										</a>
+									</li>
+
+									<li class="change_width">
+										<a href="javascript:;">网吧商家版</a>
+									</li>
+									<li>
+										<a href="javascript:;">客服/帮助</a>
+									</li>
+									<li>
+										<a href="service.html">资讯</a>
+									</li>
+
+								</ul>
+
+							</div>
+
+							 <div class="loginBox" style="display:{ShowLogin}">
+					                  <a  class="login topLogin">登录</a> 
+					                  <a class="login">|</a>
+					                  <a  class="regist topReg">注册</a>
+					        </div>
+					        <div class="loginBox" style="display:{ShowUserInfo}"> 
+					                     <a href="#"  onclick="gotourl('catbuy.html')" class="login">会员中心</a>
+					                     <a class="login">|</a>
+					                     <a href="#" onclick="gotourl('default.aspx?op=Logout')" class="regist">退出</a>
+					        </div>
+        
+							
+						</div>
+					</div>
+					<!--头部end-->
+
+					<div class="btn_tap">
+						<ul>
+							<li class="active">
+								<a href="javascript:;"><i></i>国内版</a>
+							</li>
+							<li>
+								<a href="javascript:;"><i class="app"></i>手机APP</a>
+							</li>
+							<li>
+								<a href="javascript:;"><i class="sea"></i>海外版</a>
+							</li>
+							<li>
+								<a href="javascript:;"><i class="bar"></i>网吧版</a>
+							</li>
+						</ul>
+					</div>
+					<div class="banner_list">
+						<div class="banner_list_one swiper-slide" style="display:block;">
+							<p class="title01">雷神网游加速器</p>
+							<!-- <div class="font_gif"></div>-->
+							<p class="title">银行级专线 按分钟计费 不用可暂停</p>
+							<p class="title02">行业顶尖金融专线技术 专业研发只做加速 一款千万用户量级的高端网游加速器</p>
+							<div class="btn_use">
+								<a href="javascript:;">免费试用</a>
+							</div>
+
+						</div>
+						<div class="banner_list_one swiper-slide">
+							<div class="wrap banner_list_two">
+								<img class="phone" src="images/phone.gif" />
+								<div class="phone_rightside">
+									<p class="tit01">雷神手游加速器</p>
+									<p class="tit02">一个账号 玩遍手游网游</p>
+									<img src="images/androidappcode0704.png" />
+									<p class="tit03">请扫码下载</p>
+									<p class="tit03">支持安卓5.0以上系统</p>
+									<p class="tit04">支持iOS9.0及以上系统</p>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="banner_list_one swiper-slide">
+							<div class="wrap banner_list_three">
+								<div class="img_leftside">
+									<p class="p_tit01">雷神网游加速器<span>海外版</span></p>
+									<p class="p_tit02">海外用户加速中国国内网游<br />专用客户端</p>
+									<p class="p_tit03">身处国外 加速国服游戏 / 按分钟计费 不用可暂停</p>
+									<div class="btn_use change_btn_use">
+										<a href="javascript:;">了解详情</a>
+									</div>
+								</div>
+
+								<div class="image_side"><img src="images/outside.gif" /></div>
+
+							</div>
+
+						</div>
+						<div class="banner_list_one swiper-slide">
+							<div class="wrap banner_list_four">
+								<div class="bar_leftside">
+									<h1>网吧商家专用版</h1>
+									<p class="b_tit">雷神为网吧商家精心研发 商家最贴心的专用版本</p>
+									<div class="btn_use change_btn_use">
+										<a href="javascript:;">了解详情</a>
+									</div>
+								</div>
+								<div class="bar_img">
+									<img class="bar03" src="images/banner_img303.png">
+									<img class="bar01" src="images/banner_img301.png">
+									<img class="bar02" src="images/banner_img302.png">
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+			<!--  全屏banner  end-->
+
+			<!-- 活动专区start-->
+			<div class="wrap screen_activity">
+				<div class="screen_title">
+					<h3>活动专区</h3>
+					<p>
+						<a href="javascript:;">更多活动 ></a>
+					</p>
+				</div>
+				<div class="activity_content">
+					<div class="activity_banner_one">
+						<a href="javascript:;">
+							<img src="images/ad01.jpg" /></a>
+					</div>
+					<div class="activity_banner_two">
+						<a href="javascript:;">
+							<img src="images/ad02.jpg" /></a>
+					</div>
+				</div>
+			</div>
+			<!-- 活动专区 end-->
+
+			<!--游戏资讯start-->
+
+			<div class="wrap screen_activity">
+				<div class="screen_title">
+					<h3>游戏资讯</h3>
+					<p>
+						<a href="news_index.html">更多资讯 ></a>
+					</p>
+				</div>
+				<div class="gamenews swiper-container">
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide">
+							<div class="gamenews_list ">
+								<div class="game_img">
+									<a href="javascript:;">
+										<img src="images/game01.png" /></a>
+								</div>
+								<div class="game_title">
+									<p>
+										<a href="javascript:;">如何玩好吃鸡,最终站到最后</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="gamenews_list">
+								<div class="game_img">
+									<a href="javascript:;">
+										<img src="images/game02.png" /></a>
+								</div>
+								<div class="game_title">
+									<p>
+										<a href="javascript:;">GAT5神操作技能你必须拥有</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="gamenews_list">
+								<div class="game_img">
+									<a href="javascript:;">
+										<img src="images/game03.png" /></a>
+								</div>
+								<div class="game_title">
+									<p>
+										<a href="javascript:;">彩虹六号开黑组团教程详解</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="gamenews_list">
+								<div class="game_img">
+									<a href="javascript:;">
+										<img src="images/game04.png" /></a>
+								</div>
+								<div class="game_title">
+									<p>
+										<a href="javascript:;">Warface你不知道的神操作技能</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class=" swiper-slide">
+							<div class="gamenews_list">
+								<div class="game_img">
+									<a href="javascript:;">
+										<img src="images/game04.png" /></a>
+								</div>
+								<div class="game_title">
+									<p>
+										<a href="javascript:;">Warface你不知道的神操作技能</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="gamenews_list">
+								<div class="game_img">
+									<a href="javascript:;">
+										<img src="images/game04.png" /></a>
+								</div>
+								<div class="game_title">
+									<p>
+										<a href="javascript:;">Warface你不知道的神操作技能</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="gamenews_list">
+								<div class="game_img">
+									<a href="javascript:;">
+										<img src="images/game04.png" /></a>
+								</div>
+								<div class="game_title">
+									<p>
+										<a href="javascript:;">Warface你不知道的神操作技能</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="gamenews_list">
+								<div class="game_img">
+									<a href="javascript:;">
+										<img src="images/game04.png" /></a>
+								</div>
+								<div class="game_title">
+									<p>
+										<a href="javascript:;">Warface你不知道的神操作技能</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-prev"></div>
+					<!--左箭头-->
+					<div class="swiper-button-next"></div>
+					<!--右箭头-->
+
+				</div>
+
+			</div>
+
+			<!--游戏资讯end-->
+
+			<!-- 底部start-->
+			<div class="bottom">
+				<div class="wrap bottom_navlist">
+					<div class="bottom_logo">
+						<a href="javascript:;">
+							<img src="images/bottom_logo.png" /></a>
+					</div>
+					<div class="bottom_nav">
+						<ul>
+							<li>
+								<a href="javascript:;">充值续费</a>
+							</li>
+							<li>
+								<a href="javascript:;">网吧商家版</a>
+							</li>
+							<li>
+								<a href="javascript:;">下载客户端</a>
+							</li>
+							<li>
+								<a href="javascript:;">帮助中心</a>
+							</li>
+							<li>
+								<a href="javascript:;">官方公告</a>
+							</li>
+							<li>
+								<a href="javascript:;">联系方式</a>
+							</li>
+							<li>
+								<a href="javascript:;">活动专区</a>
+							</li>
+							<li>
+								<a href="javascript:;">会员服务条款</a>
+							</li>
+							<li>
+								<a href="javascript:;">游戏资讯</a>
+							</li>
+
+						</ul>
+					</div>
+					<div class="bottom_code">
+						<img src="images/code.jpg" />
+						<p>关注官方微信公众号</p>
+						<p>每周五17:00可参与抽奖</p>
+					</div>
+					<div class="bottom_cotect">
+						<div class="btn_qq"><i class="tencent_qq"></i>联系客服</div>
+						<div class="phone">
+							<img src="images/phone.png" />
+							<div class="phone_content">
+								<p>021-60382398 </p>
+								<p class="everyday">每天9:00-22:00客服在线 (全年无休)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="wrap bottom_beian">
+					<p>
+						沪ICP备18007431号-1 2016年-2036年 上海雷神网络科技有限公司版权所有 并保留所有权利
+						<br /> 联系电话：021-60382398
+					</p>
+					<div class="beianhao">
+						<ul>
+							<li>
+								<img src="images/ba01.png" /></li>
+							<li>
+								<img src="images/ba02.jpg" /></li>
+							<li>
+								<img src="images/ba03.png" /></li>
+							<li>
+								<img src="images/ba04.png" /></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- 底部end-->
+			
+            <!--左侧二维码-->
+			<div class="code_side">
+				<div class="code_side_button"></div>
+				<img src="images/code_box.png" class="code_side_con" />
+			</div>
+			
+		</div>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+				var mySwiper = new Swiper('.swiper-container', {
+
+					loop: true,
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+					},
+					navigation: {
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},
+					slidesPerView: 4,
+					slidesPerGroup: 4,
+				})
+
+//				mySwiper.el.onmouseover = function() {
+//					mySwiper.navigation.$nextEl.removeClass('hide');
+//					mySwiper.navigation.$prevEl.removeClass('hide');
+//				}
+//				mySwiper.el.onmouseout = function() {
+//					mySwiper.navigation.$nextEl.addClass('hide');
+//					mySwiper.navigation.$prevEl.addClass('hide');
+//				}
+			}
+            $(".code_side_button").click(function(){
+            	$(this).toggleClass("code_side_open");
+            	$(".code_side_con").toggleClass("active");
+            	
+            })
+		</script>
+	</body>
+
+</html>

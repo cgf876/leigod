@@ -1,0 +1,39 @@
+﻿.top_nav {background-color:#232323;}
+.screen_banner {display:block;background:url(../images/bg_service.png) no-repeat top center;background-size:100% 100%;width:100%;height:100%;background-attachment: fixed; }
+.screen_banner p {text-align:center;}
+.font_one {color:#ff9708;font-size:48px;font-weight:bold;padding-top:207px; }
+.font_two {color:#4d4d4d;font-size:24px;margin-top:30px;}
+.service_list {display:table;overflow:hidden;}
+.service_list p {text-align:left;position:relative;}
+.service_list p span {display:inline-block;width:4px;height:4px;background-color:#979797;content:"";position:absolute;top:9px;left:-10px;}
+.service_list ul li{width:312px;height:224px;background-color:#fff;padding:27px 33px;display:block;float:left;margin:130px 30px 57px 0;}
+.service_list ul li:first-child {margin-left:205px;}
+.service_list ul li.service_list_idot p {margin-left:10px;}
+.service_list ul li h2 {font-size:18px;color:#333;font-weight:bold;margin-bottom:25px;}
+.service_list ul li p {font-size:14px;color:#666;line-height:20px;}
+.service_list ul li p.service_content {font-size:12px;color:#999;line-height:16px;margin-bottom:10px;}
+.content_size {height:120px;overflow:hidden;}
+.service_ways a {display:block;width:107px;height:33px;line-height:35px;color:#666;border:1px solid #d8d8d8;text-align:center;font-size:14px;margin:20px 12px 0 0;float:left;}
+.service_ways a.btn_active,.service_ways a:hover {color:#fff;background-color:#FFBF4B;border:1px solid #FFBF4B;}
+
+
+.screen_games {display:block;background-color:#fff;}
+.games_title p {text-align:center;}
+.games_title p.font_cn{font-size:24px;color:#333;padding-top:60px;}
+.games_title p.font_en{font-size:14px;color:#999;margin-top:11px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

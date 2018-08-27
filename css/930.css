@@ -1,0 +1,24 @@
+﻿.guoqing{position:absolute;top:0;right:-80px;-webkit-animation:guoqing 2s linear infinite;-ms-animation:guoqing 2s linear infinite;
+  -moz-animation:guoqing 2s linear infinite;-o-animation:guoqing 2s linear infinite;
+    }
+
+    @-webkit-keyframes guoqing{
+       0%{top:0px;}
+	50%{top:5px;}
+	100%{top:0px;}
+    }
+    @-ms-keyframes guoqing{
+        0%{top:0px;}
+	50%{top:5px;}
+	100%{top:0px;}
+    }
+    @-moz-keyframes guoqing{
+        0%{top:0px;}
+	50%{top:5px;}
+	100%{top:0px;}
+    }
+    @-o-keyframes guoqing{
+        0%{top:0px;}
+	50%{top:5px;}
+	100%{top:0px;}
+    }
